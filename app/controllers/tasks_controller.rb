@@ -26,6 +26,10 @@ class TasksController < ApplicationController
 		end
 	end
 
+	def edit
+		
+	end
+
 	def update
 		if @task.update(tasks_params)
 			redirect_to @task 
